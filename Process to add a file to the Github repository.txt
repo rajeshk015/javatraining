@@ -1,0 +1,13 @@
+Process to add a file to the Github repository:
+
+1. Create a file in the local folder connected to Github
+2. then Right click > Show more options > git bash here
+3. now enter the following commands serially
+
+git status
+git init
+git add *
+git status
+git commit -m "Add a file"
+git status
+git push
